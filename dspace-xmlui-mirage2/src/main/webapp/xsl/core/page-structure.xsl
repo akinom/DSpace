@@ -696,7 +696,7 @@
                     <hr/>
                     <div class="col-xs-7 col-sm-8">
                         <div>
-                            <a href="http://www.dspace.org/" target="_blank">DSpace software</a> copyright&#160;&#169;&#160;2002-2013&#160; <a href="http://www.duraspace.org/" target="_blank">Duraspace</a>
+                            <a href="http://www.dspace.org/" target="_blank">DSpace software</a> copyright&#160;&#169;&#160;2002-2015&#160; <a href="http://www.duraspace.org/" target="_blank">DuraSpace</a>
                         </div>
                         <div class="hidden-print">
                             <a>
@@ -816,7 +816,7 @@
             <script src="{$theme-path}{@src}">&#160;</script>
         </xsl:for-each>
 
-        <!-- Add javascipt specified in DRI -->
+        <!-- Add javascript specified in DRI -->
         <xsl:for-each select="/dri:document/dri:meta/dri:pageMeta/dri:metadata[@element='javascript'][not(@qualifier)]">
             <script>
                 <xsl:attribute name="src">
